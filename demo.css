@@ -1,0 +1,140 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+/*.navbar{
+	padding-left:40px;
+	padding-right: 40px;
+}
+*/
+ 
+.navigation{
+	background-color: #021523;
+}
+ .navbar.navbar-default{
+    background:none; 
+    border:none;
+	
+}
+.glyphicon.glyphicon-camera{
+	font-size: 27px;
+	margin-right:10px;
+}
+.banner-top .navigation .navbar-header h1{
+	display:inline-block;
+}
+
+.navbar-header{
+	color:#fff;
+
+}
+.collapse.navbar-collapse li a{
+	font-size: 15px;
+	font-weight:bold;
+	color:#fff;
+}
+.collapse.navbar-collapse li a:hover{
+	color:#007F46FF;
+}
+
+  
+@media (max-width:1000px){
+	  .navbar{
+		max-height:100px;
+		z-index:999;
+	}
+	.nav.navbar-nav{
+		background:#021523;
+		text-align: center;
+	}
+}
+
+.banner-top .carousel.slide .carousel-inner img{
+	width:100%;
+	 
+
+
+}
+ 
+.about .container-fluid .row img{
+	width:100%;
+}
+.about .container-fluid .row div:nth-of-type(1){
+	background-color: #fff;
+}
+@media (max-width:1000px){
+	  .about .container-fluid .row p{
+	  	display: none;
+	  }
+}
+.about .container-fluid .row h2{
+	font-weight: bolder;
+
+}
+.about .container-fluid .row span{
+	color:green;
+	font-size: 12px;
+}
+
+.about .container-fluid .row div:nth-of-type(1){
+	padding:0;
+}
+
+.photos .container-fluid .row img#img{
+	 height:100%;
+	 width:100%;
+
+}
+.photos .container-fluid h2{
+	font-weight: bolder;
+	text-align: center;
+	line-height: 50px;
+	height:50px;
+}
+/*.banner-top .container-fluid{
+	padding-left:0;
+	padding-right:0;
+
+}*/
+
+.photos .row div{
+	height:400px;
+	padding:0;
+}
+@media (max-width:1000px){
+	   .photos .row div{
+	height:250px;
+}
+}
+
+.footer{
+	height:200px;
+}
+.footer p{
+	height:40px;
+	text-align: center;
+}
+
+
+.footer .pa{
+	margin:40px 0 40px 0;
+
+}
+.footer a,.footer p{
+	color:#fff;
+
+
+}
+.footer .qq a{
+	margin:12px;
+	font-size: 18px;
+
+
+}
+
+.footer{
+	background:url("https://hbimg.huabanimg.com/762b0c212c6c03fd6ee0073e5e871c63db8e309a35da2-wIK2Kx_fw658");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: 0px -450px;*/
+}
